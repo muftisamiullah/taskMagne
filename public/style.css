@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    text-align: center;
+    color:white;
+    font-size:50px;
+    
+    /* margin-right: 100px; */
+    
+}
+.responsive {
+    width: 100%;
+    height: auto;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 100%;
+    transform: translate(-50%, -50%);
+}
+.footer{
+    padding-top:35px;
+}
+
+h4{
+    text-align: center;
+    color: black;
+}
+h5{
+    text-align: center;
+    /* color: white; */
+}
+.about{
+background:white;
+
+}
+.bttn{
+    
+}

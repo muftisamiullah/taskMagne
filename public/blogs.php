@@ -1,4 +1,8 @@
 <?php
-require 'templates/header.php';
+require 'templates/header.php';?>
 
-require 'templates/footer.php';
+
+
+
+<?php
+require 'templates/footer.php';?>

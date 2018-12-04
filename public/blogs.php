@@ -19,7 +19,7 @@ try  {
 <?php foreach ($blogs as $row) : ?>
   <div class="card text-center">
   <div class="card-header">
-  <?php echo($row["title"]); ?>
+  <strong><?php echo($row["title"]); ?></strong>
   </div>
   <div class="card-body">
     <!-- <h5 class="card-title"><?php echo($row["title"]); ?></h5> -->

@@ -17,26 +17,26 @@ require 'templates/header.php';?>
                             <div class="form-row">
                             <div class="form-group col-md-6">
                                 <!-- <label for="inputNamel4">Name</label> -->
-                                <input type="text" class="form-control" id="inputEmail4" placeholder="Name">
+                                <input type="text" class="form-control" id="inputEmail4" placeholder="Name" required>
                                 </div>
                                 <div class="form-group col-md-6">
                                 <!-- <label for="inputEmail4">Email</label> -->
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
                                 </div>
                             
                             <div class="form-group col-md-6">
                                 <!-- <label for="inputAddress">Phone</label> -->
-                                <input type="text" class="form-control" id="inputAddress" placeholder="Phone no">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Phone no" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <!-- <label for="inputAddress">Company</label> -->
-                                <input type="text" class="form-control" id="inputAddress" placeholder="Company">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="Company" required>
                             </div>
                             </div> 
                             </div>
                             <div class="form-group">
                                 <!-- <label for="exampleFormControlTextarea1">Example textarea</label> -->
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message"></textarea>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message" required></textarea>
                             </div>
                             <button type="submit" class="btn btn-primary float-right">Send</button>
                             <br>

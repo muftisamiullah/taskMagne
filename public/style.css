@@ -19,7 +19,7 @@
     transform: translate(-50%, -50%);
 }
 .footer{
-    padding-top:35px;
+    padding-top:85px;
 }
 
 h4{
@@ -37,3 +37,4 @@ background:white;
 .bttn{
     
 }
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAimSdtntTqL2lHcj7iEX5yqTZgjL2NGFA" async defer></script>

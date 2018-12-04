@@ -44,9 +44,12 @@ require 'templates/header.php';?>
                             <br>
         </div>
         <div class="col-sm-6">
-            
-</div>
+        <?php 
+        include "map/myMap.html";
+        ?>
+
         </div>
-</div>
+        </div>
+        </div>
 <?php
 require 'templates/footer.php';?>

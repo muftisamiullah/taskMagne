@@ -1,58 +1,42 @@
 <?php
 require 'templates/header.php';
-?>
+require 'index.view.php';
+require 'database/config.php';
 
-<link rel="stylesheet" href="style.css" type="text/css">
-<span class="container">
-    <img class="responsive" src="imgs/img2.jpg">
-<div class="centered"><strong>Log In</strong></div>
-</span>
+if (isset($_POST['submit'])) {
+    try  {
+    date_default_timezone_set('Asia/Calcutta');
+    $date = date('m/d/Y h:i:s a', time());
+    
+    $connection = new PDO($dsn, $username, $password, $options);
+    // if($connection->connect_error)
+    //     die("connection failed" . $conn->connect_error);
 
-<div>
-    <br>
-<div class="row">
-<div class="col-sm-3">
-            
-            </div>
-        <div class="col-sm-6">
-        <div class="forming">
-                <h5><strong>Log In to view the Blog</strong></h5>
-                            <form>
-                            <!-- <div class="form-row"> -->
-                               
-                                <div class="form-group">
-                                <!-- <label for="inputEmail4">Email</label> -->
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                                </div>
-                            
-                            
-                            <div class="form-group">
-                                <!-- <label for="inputAddress">Company</label> -->
-                                <input type="text" class="form-control" id="inputAddress" placeholder="Company">
-                            </div>
-                            </div> 
-                            <!-- </div> -->
-                            
-                            <button type="submit" class="btn btn-primary float-right">Log In</button>
-                            <br>
-                            </form>
-                            <br>
-        </div>
-        <div class="col-sm-3">
-            
-</div>
-        </div>
-</div>
+    // $sql = "INSERT INTO blogs (posted_by, title, body, time) VALUES (?,?,?,?)";
+    // $statement = $connection->prepare($sql);
 
-<?php
+    // if(!$statement)
+    //     echo "false";
+
+    // $statement->bind_param("sssi", $_POST['name'], $_POST['title'], $_POST['body'], $date);
+    // $statement->execute();
+    // echo "successfully Added";
+    $new_blog = array(
+        "name"  => $_POST['name'],
+        "title" => $_POST['title'],
+        "body"  => $_POST['body'],
+        "time"  => $date,
+      );
+    $sql = "INSERT INTO blogs (posted_by,title,body,time) VALUES (?,?,?,?)";
+    $statement = $connection->prepare($sql);
+    $statement->bind_param("sss",$_POST['name'],$_POST['title'],$_POST['body']);
+    $statement=$connection->prepare($sql);
+    $statement->execute($new_blog);
+    echo "Your blog has been added. Thank You!";
+    }
+    catch(PDOException $error) {
+        echo $sql . "<br>" . $error->getMessage();
+    }
+}
 require 'templates/footer.php';
 ?>
-    
-
-
-
-
-
-
-
-

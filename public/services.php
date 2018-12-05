@@ -16,8 +16,8 @@ require 'templates/header.php';?>
 
 <div style="background:#D3D3D3;">
 <br>
-    <div class="row" style="padding-left:200px;">
-        <div class="col-sm-4">
+    <div class="row" >
+        <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
                 <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <div class="card-body">
@@ -27,7 +27,7 @@ require 'templates/header.php';?>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
                 <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <div class="card-body">
@@ -37,7 +37,7 @@ require 'templates/header.php';?>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
                     <!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
                     <div class="card-body">
@@ -52,8 +52,8 @@ require 'templates/header.php';?>
 </div>
 <div style="background:#D3D3D3;">
 <br>
-    <div class="row" style="padding-left:200px;">
-        <div class="col-sm-4">
+    <div class="row" >
+        <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
                 <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <div class="card-body">
@@ -63,7 +63,7 @@ require 'templates/header.php';?>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
                 <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <div class="card-body">
@@ -73,7 +73,7 @@ require 'templates/header.php';?>
                 </div>
             </div>
         </div>
-        <div class="col-sm-4">
+        <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
                     <!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
                     <div class="card-body">

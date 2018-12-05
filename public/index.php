@@ -1,7 +1,8 @@
 <?php
 require 'templates/header.php';
-require 'index.view.php';
+require 'templates/index.view.php';
 require 'database/config.php';
+// $GLOBALS['msg']= 'Your blog has been added. Thank You!';
 
 if (isset($_POST['submit'])) {
     try  {
@@ -17,7 +18,7 @@ if (isset($_POST['submit'])) {
     $statement->bindParam(":body",$_POST['body'], PDO::PARAM_STR);
 
     $statement->execute();
-    echo "Your blog has been added. Thank You!";
+    // echo $GLOBALS['msg'];
     }
     catch(PDOException $error) {
         echo $sql . "<br>" . $error->getMessage();

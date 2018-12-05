@@ -2,7 +2,7 @@
 ?>
 <link rel="stylesheet" href="style.css" type="text/css">
 <span class="container">
-    <img class="responsive" src="imgs/img2.jpg">
+    <img class="responsive" src="imgs/img2.jpg" style="margin-left:-15px;">
 <div class="centered"><strong>Write a new Blog</strong></div>
 </span>
 <div><br>

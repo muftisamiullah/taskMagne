@@ -16,8 +16,7 @@ function initMap(){
   getLocation() //finds out user location to fomat the map
   if (curLat == null){
     curLat = 34.096391;   //if the user location cannot be found, set default ones
-    curLon = 74.802305;   // of boston
-    console.log("random locations");
+    curLon = 74.802305;   //
   }
   var options = {
     zoom:17,

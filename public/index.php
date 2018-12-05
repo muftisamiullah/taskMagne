@@ -11,11 +11,12 @@ if (isset($_POST['submit'])) {
     
     $connection = new PDO($dsn, $username, $password, $options);
     
-    $sql = "INSERT INTO blogs (posted_by,title,body) VALUES(:name, :title, :body)";
+    $sql = "INSERT INTO blogs (posted_by,title,body,time) VALUES(:name, :title, :body, :time)";
     $statement = $connection->prepare($sql);
     $statement->bindParam(":name", $_POST['name'], PDO::PARAM_STR);
     $statement->bindParam(":title", $_POST['title'], PDO::PARAM_STR);
     $statement->bindParam(":body",$_POST['body'], PDO::PARAM_STR);
+    $statement->bindParam(":time",$date, PDO::PARAM_STR);
 
     $statement->execute();
     // echo $GLOBALS['msg'];

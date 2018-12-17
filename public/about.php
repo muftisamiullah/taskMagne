@@ -2,8 +2,8 @@
 require 'templates/header.php';?>
 
 <link rel="stylesheet" href="style.css" type="text/css">
-<span class="container">
-    <img class="responsive" src="imgs/img3.jpg" style="margin-left:-15px;">
+<span class="ph-title">
+    <img class="responsive" src="imgs/img3.jpg">
     <div class="centered">
         <strong>About Us</strong>
     </div>
@@ -23,14 +23,14 @@ require 'templates/header.php';?>
 </div>
         <div class="row" style="background:#D3D3D3;">
             <div class="col-sm-6"><br><br><br>
-                <h3 style="padding-left:80px;">Our People</h3>
-                <p style="padding-left:80px;">The Q Advertising team encompasses some of the most experienced professionals in the industry 
+                <h3 style="margin-left:30px;">Our People</h3>
+                <p style="margin-left:30px;">The Q Advertising team encompasses some of the most experienced professionals in the industry 
                     including its directors who have held senior positions in major media and advertising 
                     businesses across Australia. The dedicated team of professionals at Q Advertising will become an
                      energetic and passionate addition to your business.</p>
                 <br>
-                <h3 style="padding-left:80px;">What We Do</h3>
-                <p style="padding-left:80px;">As a national advertising agency, we offer a broad range of services including media strategy and 
+                <h3 style="margin-left:30px;">What We Do</h3>
+                <p style="margin-left:30px;">As a national advertising agency, we offer a broad range of services including media strategy and 
                     buying, creative development, digital marketing and public relations.</p>
             </div>
             <div class="col-sm-6">
@@ -42,13 +42,13 @@ require 'templates/header.php';?>
                 <img class="responsive" style="margin-left:15px;" src="imgs/img8.jpg">
             </div>
             <div class="col-sm-6"><br><br><br>
-                <h3 style="padding-left:80px;">Our Approach</h3>
-                <p style="padding-left:80px;">Q Advertising’s main objective is to provide strategic solutions to suit all clients and their 
+                <h3 style="margin-left:30px;">Our Approach</h3>
+                <p style="margin-left:30px;">Q Advertising’s main objective is to provide strategic solutions to suit all clients and their 
                     budgets. We know that every client, every strategy and every campaign are unique – so our team takes
                     the time to get to know you and your business to form tailored solutions to help achieve your goals.</p>
                 <br>
-                <h3 style="padding-left:80px;">Our Services</h3>
-                <p style="padding-left:80px;">Our service delivery is extensive and includes all areas of advertising which are always centred 
+                <h3 style="margin-left:30px;">Our Services</h3>
+                <p style="margin-left:30px;">Our service delivery is extensive and includes all areas of advertising which are always centred 
                     around the right strategy for each individual client.</p>
             </div>  
         </div>

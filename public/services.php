@@ -1,8 +1,8 @@
 <?php
 require 'templates/header.php';?>
 <link rel="stylesheet" href="style.css" type="text/css">
-<span class="container">
-    <img class="responsive" src="imgs/img5.jpg" style="margin-left:-15px;">
+<span class="ph-title">
+    <img class="responsive" src="imgs/img5.jpg">
     <div class="centered"><strong>Services</strong></div>
 </span>
 
@@ -19,7 +19,6 @@ require 'templates/header.php';?>
     <div class="row" >
         <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
-                <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <div class="card-body">
                     <h5 class="card-title">Media Strategy</h5>
                     <p class="card-text">Q Advertising specialises in media strategy and planning by exploring all aspects of the client’s business to devise a strategy that will not only enable business growth but also develop future proof strategies against oncoming competitors and other market factors that may occur.</p>
@@ -29,7 +28,6 @@ require 'templates/header.php';?>
         </div>
         <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
-                <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <div class="card-body">
                     <h5 class="card-title">Media Buying</h5>
                     <p class="card-text">Q Advertising has competitive media buying opportunities throughout Australia and further negotiate on all media buys to maximise the potential of each media campaign.</p>
@@ -39,7 +37,6 @@ require 'templates/header.php';?>
         </div>
         <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
-                    <!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
                     <div class="card-body">
                         <h5 class="card-title">Automotive</h5>
                         <p class="card-text">The QA Auto team is a group of advertising, marketing and media professionals dedicated to supporting the broad Australian automotive industry.</p>
@@ -55,7 +52,6 @@ require 'templates/header.php';?>
     <div class="row" >
         <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
-                <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <div class="card-body">
                     <h5 class="card-title">Public Relations</h5>
                     <p class="card-text">QAPR offers specialist Public Relations services to clients ranging from large multinationals through to small businesses and not for profit organisations.</p>
@@ -65,7 +61,6 @@ require 'templates/header.php';?>
         </div>
         <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
-                <!-- <img class="card-img-top" src="" alt="Card image cap"> -->
                 <div class="card-body">
                     <h5 class="card-title">Digital Marketing</h5>
                     <p class="card-text">The biggest change in advertising over the past few years has been the emergence and importance of Digital Marketing for small and big businesses alike.</p>
@@ -75,7 +70,6 @@ require 'templates/header.php';?>
         </div>
         <div class="col-sm-4 pagination justify-content-center">
             <div class="card" style="width: 18rem; height: 22rem;">
-                    <!-- <img class="card-img-top" src=".../100px180/" alt="Card image cap"> -->
                     <div class="card-body">
                         <h5 class="card-title">Marketing</h5>
                         <p class="card-text">It’s important to build a consistent brand message across all marketing channels. Q Advertising utilise its collective expertise in Advertising, Marketing, PR and Online to ensure clients combined marketing is working to reach the same desired goal.</p>

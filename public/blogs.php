@@ -18,13 +18,15 @@ require 'database/config.php';
 <?php foreach ($blogs as $row) : ?>
 <div class="card"> 
         <div class="card text-center" style="margin-left:10px;margin-right:10px;">
-          <div class="card-header">
-            <strong><?php echo($row["title"]); ?></strong>
+          <div class="card-header title">
+            <!-- <strong> -->
+            <?php echo($row["title"]); ?>
+            <!-- </strong> -->
           </div>
           <div class="card-body">
-           <p class="card-text"><?php echo($row["body"]); ?></p>
+           <p class="card-text body"><?php echo($row["body"]); ?></p>
           </div>
-          <div class="card-footer text-muted">
+          <div class="card-footer text-muted footer">
             <strong><?php echo($row["posted_by"]); ?></strong> posted at <?php echo($row["time"]); ?>
           </div>
         </div>

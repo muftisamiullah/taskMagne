@@ -1,4 +1,4 @@
-.container {
+.ph-title {
     position: relative;
     text-align: center;
     color:white;
@@ -16,12 +16,16 @@ a:active {
     width: 100%;
     height: auto;
 }
+/* img{
+    width: 100%;
+} */
 .centered {
     position: absolute;
     top: 50%;
     left: 50%;
     bottom: 100%;
     transform: translate(-50%, -50%);
+    width: 100%;
 }
 /* .footer{
     padding-top:85px;
@@ -33,6 +37,7 @@ h4{
 }
 h5{
     text-align: center;
+    color: black;
     /* color: white; */
 }
 
@@ -40,14 +45,27 @@ h5{
 background:whitesmoke;
 }
 .bttn{
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* .crds{
     margin-left:10px;
     margin-right:10px;
 } */
-
-
-
+.body{
+    font-family: Times New Roman;
+    text-align: left;
+    /* font-size: 20px; */
+    
+}
+.title{
+    font-family: Times New Roman;
+    font-size: 2.0em;
+    text-align: left;
+    color: maroon;
+}
+.footer{
+    text-align: left;
+    /* font-size: 1em; */
+}
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAimSdtntTqL2lHcj7iEX5yqTZgjL2NGFA" async defer></script>
